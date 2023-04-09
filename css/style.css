@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+/*titulos*/
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap');
+/*textos*/
+
+
+
+:root {
+    --color1: #636363;
+    /*Cuerpo de Texto*/
+    --color2: #764c24;
+    /*subtitulos*/
+    --color3: #d7aa82;
+    /*precio*/
+    --color4: #4a221a;
+    /*boton*/
+    --color5: #F6F2E9;
+    /*boton*/
+    --color-blanco: #FFFFFF;
+    --color-negro: #000000;
+    --gris-claro: #CCCCCC;
+    --gris-oscuro: #333333;
+}
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color1);
+    background-color: transparent;
+
+}
+
+h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    color: var(--color-negro);
+    line-height: 30px;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color2);
+
+}
+
+h4 {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--color4);
+}
+
+#main-header {
+    color: var(--color2);
+    background-color: transparent;
+}
+
+#tienda {
+    background-image: url("../img/imagenfondo.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+#nosotros {
+    text-align: center;
+}
+
+#galeria {
+    text-align: center;
+}
+
+#imagen1 {
+    padding: 0;
+}
+
+#imagen2 {
+    padding: 0;
+}
+
+#imagen3 {
+    padding: 0;
+}
+
+#imagen4 {
+    padding: 0;
+}
+
+#main-footer {
+    background-image: url("../img/imagenfondo2.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.contenedor {
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.espaciado {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.espaciado2 {
+    padding-top: 40px;
+}
+
+.fundacionfondo {
+    text-align: center;
+}
+
+.tiendafondo {
+    text-align: center;
+}
+
+a.boton-complex:link,
+a.boton-complex:visited {
+    padding: 10px 20px;
+    background: var(--color5);
+    text-decoration: 1px;
+    color: var(--color4);
+    font-family: "Lora", serif;
+    font-weight: 600;
+    border-radius: 35px 0px 35px 0px;
+    -moz-border-radius: 35px 35px 35px 35px;
+    -webkit-border-radius: 35px 35px 35px 35px;
+}
+
+a.boton-complex:hover,
+a.boton-complex:active {
+    background: var(--color4);
+    color: var(--color-blanco);
+
+}
